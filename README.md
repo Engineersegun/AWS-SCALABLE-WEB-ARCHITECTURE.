@@ -9,18 +9,16 @@ sudo systemctl enable httpd
 echo "<h1>Success! Server is Healthy</h1>" > /var/www/html/index.html
 
 ## 📊 Project Validation & Evidence
+<img width="1366" height="768" alt="scaling test hp" src="https://github.com/user-attachments/assets/44086d0c-f334-4fae-be9b-f20d39c3ac88" />
+<img width="1366" height="768" alt="scaling pngg" src="https://github.com/user-attachments/assets/926b86db-4ae2-4b4d-9343-d1376ac7e01b" />
+<img width="1366" height="768" alt="scaling (2)" src="https://github.com/user-attachments/assets/fc649214-9e04-4aaa-9144-711073198c1a" />
+<img width="1366" height="768" alt="scaling-test" src="https://github.com/user-attachments/assets/6b1ac1e1-c6bf-489a-b9a7-8c4c3cc462ab" />
+<img width="1366" height="768" alt="scaling" src="https://github.com/user-attachments/assets/84029203-53e7-4e32-aad2-635af18d18cb" />
+<img width="1366" height="768" alt="scaling test" src="https://github.com/user-attachments/assets/8a140e55-a177-4a2a-a9b9-7dc11dc965c1" />
+<img width="1366" height="768" alt="scaling test " src="https://github.com/user-attachments/assets/3c3ef89f-99bb-4f82-ae7e-e26f5cafb160" />
+<img width="1366" height="768" alt="scaling-test png" src="https://github.com/user-attachments/assets/128622e9-bf21-4846-8c16-ded5110b1360" />
 
-### 1. Application Load Balancer Routing
-Successfully accessed the web application via the ALB DNS name, confirming traffic is being distributed to healthy instances.
-![ALB Routing Proof](scaling%20test%20hp.png)
 
-### 2. Multi-AZ Deployment Architecture
-Verified that instances are running across different Availability Zones (1a, 1d, 1e) to ensure fault tolerance and high availability.
-![Architecture Deployment](scaling.png)
-
-### 3. Auto Scaling & Monitoring
-Configured CloudWatch Alarms to monitor CPU utilization and manage the Auto Scaling Group lifecycle (Scale-out/Scale-in).
-![Auto Scaling Monitoring](scaling%20(2).png)
 
 🛠️ Technical Challenges & Solutions
 1. Automating the Web Server Configuration
