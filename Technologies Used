@@ -1,0 +1,5 @@
+Cloud Provider: AWS (EC2, VPC, ALB, ASG, CloudWatch)
+Web Server: Apache (httpd)
+Operating System: Amazon Linux 2
+Scripting: Bash (User Data)
+Testing: Apache Benchmark (ab)
